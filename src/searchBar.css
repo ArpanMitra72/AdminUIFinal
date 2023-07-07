@@ -1,0 +1,16 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.search-desktop {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .search-desktop {
+    width: 100vw;
+  }
+}
